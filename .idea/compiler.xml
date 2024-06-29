@@ -6,9 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-mvc" />
         <module name="spring-mvc-hibernate-logging" />
-        <module name="spring-boot-rest-actuator-security" />
         <module name="spring-rest" />
         <module name="spring-boot-rest-jpa" />
         <module name="spring-security" />
@@ -17,6 +15,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="spring-boot-rest-actuator-security" target="17" />
+      <module name="spring-mvc" target="1.5" />
       <module name="spring_boot_rest" target="1.8" />
       <module name="spring_course2" target="1.5" />
       <module name="spring_course_mvc" target="1.5" />
